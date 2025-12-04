@@ -2,6 +2,15 @@
 
 A full-stack Web Application built as per GDGC Task requirements, featuring a creative UI (inspired by Discord's Crimson Theme), member profile cards, ability to search and filter, light/dark mode and Node.js backend API.
 
+## Live Demo
+
+**Frontend (Netlify):**  
+https://amazing-pithivier-7a7767.netlify.app/
+
+**Backend API (Render):**  
+https://gdgc-task.onrender.com/
+
+
 ## Project Structure
 ```plpgsql
 GDGC_Task/
@@ -89,6 +98,14 @@ Or use Live Server extension in VS Code
 - Node.js
 - Express.js
 - CORS enabled
+
+## Deployment
+
+| Component     | Platform |
+| ------------- | ---------|
+| Backend API   | Render   |
+| Frontend Site | Netlify  |
+
 
 ## Requirement Checklist
 
