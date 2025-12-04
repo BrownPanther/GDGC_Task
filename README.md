@@ -1,7 +1,6 @@
 # GDGC Profile Member Showcase
 
-A full-stack Web Application built as per GDGC Task requirements, featuring a creative UI (inspired by Discord's Crimson Theme), member profile cards, ability to search and filter, light/dark mode and a Node.js backend API.
-
+A full-stack Web Application built as per GDGC Task requirements, featuring a creative UI (inspired by Discord's Crimson Theme), member profile cards, ability to search and filter, light/dark mode and Node.js backend API.
 
 ## Project Structure
 ```plpgsql
@@ -18,44 +17,41 @@ GDGC_Task/
     └── script.js
 ```
 
-
 ## Features
 
--Splash Screen
+### Splash Screen
 
-• Shows app name + logo.
-• Short animation.
-• Auto-redirects to the main page.
+- Shows app name + logo.
+- Short animation.
+- Auto-redirects to the main page.
 
-
--Member Cards Grid
+### Member Cards Grid
 
 Displays member:
-• Photo
-• Name
-• Role
-• Skills
-• Location
-• Bio
+- Photo
+- Name
+- Role
+- Skills
+- Location
+- Bio
 
+### Search & Filtering
 
--Search & Filtering
+- Search by name or bio
+- Filters:
+  - Role
+  - Skill
+  - Location
 
-Search by name or bio
-Filters:
-• Role
-• Skill
-• Location
+### Toggle Light/Dark Mode
 
--Toggle Light/Dark Mode
+### API Integration
 
--API Integration
-
--Deployment ready
+### Deployment ready
 
 ## How to run Locally?
 
-1. Backend setup
+### 1. Backend setup
 
 Inside /backend
 ```bash
@@ -73,8 +69,7 @@ It will say:
 | GET    | `/members`     | Returns all members        |
 | GET    | `/members/:id` | Returns single member data |
 
-
-2. Frontend Setup
+### 2. Frontend Setup
 
 Open
 ```bash
@@ -82,19 +77,18 @@ GDGC_Task/frontend/index.html
 ```
 Or use Live Server extension in VS Code
 
-
 ## Technologies used
 
-Frontend
-• HTML5
-• CSS3
-• Vanilla JavaScript
-• Dynamic content rendering using DOM API
+### Frontend
+- HTML5
+- CSS3
+- Vanilla JavaScript
+- Dynamic content rendering using DOM API
 
-Backend
-• Node.js
-• Express.js
-• CORS enabled
+### Backend
+- Node.js
+- Express.js
+- CORS enabled
 
 ## Requirement Checklist
 
@@ -109,8 +103,7 @@ Backend
 | Loading & Error states                 |    ✅   |
 | Deployment Supported                   |    ✅   |
 
-
 ## Author
 
-GDGC Task Project
+GDGC Task Project  
 Created by: Simrandeep Singh
