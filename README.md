@@ -4,7 +4,7 @@ A full-stack Web Application built as per GDGC Task requirements, featuring a cr
 
 
 ## Project Structure
-
+```plpgsql
 GDGC_Task/
 │
 ├── backend/
@@ -16,7 +16,7 @@ GDGC_Task/
     ├── index.html
     ├── style.css
     └── script.js
-
+```
 
 
 ## Features
