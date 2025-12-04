@@ -1,0 +1,15 @@
+{
+  "name": "gdgc-members-api",
+  "version": "1.0.0",
+  "description": "Simple API for GDGC Member Showcase",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.0"
+  }
+}

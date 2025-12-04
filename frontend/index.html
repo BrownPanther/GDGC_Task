@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>GDGC Member Profiles</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="style.css">
+</head>
+  
+<body>
+  <div class="splash" id="splash">
+    <div class="splash-logo">
+  <div class="splash-logo-inner">
+    <img
+      src="https://cdn-images-1.medium.com/max/578/1*vZVM7utCuRiZ6-HDsNeYUA@2x.png"
+      alt="Loading animation"
+      class="splash-gif"
+    />
+  </div>
+</div>
+
+    <div class="splash-title">GDGC Member Profiles</div>
+    <div class="splash-subtitle">Made by: Simrandeep Singh</div>
+  </div>
+  <div class="app-shell" id="appShell">
+    <header class="top-bar">
+      <div class="brand">
+        <div class="brand-badge"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Google_Favicon_2025.svg/250px-Google_Favicon_2025.svg.png" alt="Google logo" /></div>
+        <div class="brand-text">
+          <h1>GDGC Member Showcase</h1>
+          <span>Discover roles, skills & stories of the community</span>
+        </div>
+      </div>
+
+      <button class="theme-toggle" id="themeToggle">
+        <div class="theme-toggle-thumb" id="themeThumb">☀️</div>
+        <span id="themeLabel">Light mode</span>
+      </button>
+    </header>
+
+    <section class="controls">
+      <div class="search-input">
+        <span>🔍</span>
+        <input
+          type="text"
+          id="searchInput"
+          placeholder="Search by name or bio"
+        />
+      </div>
+
+      <div class="filters">
+        <select id="roleFilter" class="chip-select">
+          <option value="">Role: All</option>
+        </select>
+
+        <select id="skillFilter" class="chip-select">
+          <option value="">Skill: All</option>
+        </select>
+
+        <select id="locationFilter" class="chip-select">
+          <option value="">Location: All</option>
+        </select>
+      </div>
+    </section>
+
+    <main id="contentArea">
+      <p class="status-message" id="statusMessage">
+        <strong>Loading members...</strong>
+        Fetching data from the GDGC API.
+      </p>
+      <div class="grid" id="memberGrid" style="display: none;"></div>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
