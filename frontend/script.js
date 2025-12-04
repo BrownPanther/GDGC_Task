@@ -16,7 +16,7 @@ if (splash) {
 }
 
 
-const API_BASE_URL = "http://localhost:5000";
+const API_BASE_URL = "https://gdgc-task.onrender.com";
 
 const searchInput = document.getElementById("searchInput");
 const roleFilter = document.getElementById("roleFilter");
